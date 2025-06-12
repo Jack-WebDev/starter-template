@@ -1,7 +1,7 @@
 lockfileVersion: '9.0'
 
 settings:
-  autoInstallPeers: true
+  autoInstallPeers: false
   excludeLinksFromLockfile: false
 
 importers:
@@ -39,9 +39,9 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
     devDependencies:
-      '@repo/typescript-config':
+      '@repo/ts':
         specifier: workspace:*
-        version: link:../../packages/typescript-config
+        version: link:../../packages/ts
       '@types/node':
         specifier: ^22.15.3
         version: 22.15.3
@@ -55,7 +55,7 @@ importers:
         specifier: 5.8.2
         version: 5.8.2
 
-  packages/typescript-config: {}
+  packages/ts: {}
 
   packages/ui:
     dependencies:
@@ -66,9 +66,9 @@ importers:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
     devDependencies:
-      '@repo/typescript-config':
+      '@repo/ts':
         specifier: workspace:*
-        version: link:../typescript-config
+        version: link:../ts
       '@turbo/gen':
         specifier: ^2.5.0
         version: 2.5.0(@types/node@22.15.3)(typescript@5.8.2)
