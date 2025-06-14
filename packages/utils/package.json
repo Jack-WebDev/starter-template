@@ -3,12 +3,12 @@
 	"version": "1.0.0",
 	"description": "",
 	"private": true,
-	"main": "./dist/index.js",
-	"types": "./dist/index.d.ts",
+	"main": "./dist/index.mjs",
+	"types": "./dist/index.d.mts",
 	"exports": {
 		".": {
-			"import": "./dist/index.js",
-			"types": "./dist/index.d.ts"
+			"import": "./dist/index.mjs",
+			"types": "./dist/index.d.mts"
 		}
 	},
 	"scripts": {
@@ -38,6 +38,8 @@
 		"@faker-js/faker": "^9.8.0",
 		"@repo/buildkit": "workspace:*",
 		"@repo/ts": "workspace:*",
+		"@types/lodash.groupby": "^4.6.9",
+		"@types/lodash.startcase": "^4.4.9",
 		"@types/node": "^22.15.3",
 		"typescript": "5.8.2"
 	}

@@ -10,3 +10,5 @@ export * from "./crypto";
 export * from "./saID";
 export * from "./faker";
 export * from "./phone";
+export { default as groupBy } from "lodash.groupby";
+export { default as startCase } from "lodash.startcase";
