@@ -8,3 +8,5 @@ export * from "./types";
 export * from "./zod";
 export * from "./crypto";
 export * from "./saID";
+export * from "./faker";
+export * from "./phone";
