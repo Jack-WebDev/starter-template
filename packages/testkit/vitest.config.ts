@@ -17,7 +17,7 @@ export default defineConfig({
 		coverage: {
 			provider: "v8",
 			all: true,
-			reporter: ["text", "json", "html"],
+			reporter: ["text", "json"],
 			reportsDirectory: "./coverage",
 			exclude: [
 				"**/node_modules/**",
@@ -29,7 +29,7 @@ export default defineConfig({
 			],
 		},
 		watch: !process.env.CI,
-		reporters: process.env.CI ? "default" : ["default", "html"],
+		reporters: process.env.CI ? "default" : ["default"],
 		testTimeout: 10000,
 		hookTimeout: 5000,
 		isolate: true,
