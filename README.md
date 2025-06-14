@@ -45,6 +45,13 @@ Includes fast, modern local services for fullstack development:
 - **Meilisearch** – fast, developer-friendly search engine
 - **MinIO** – S3-compatible object storage
 
+## Packages
+
+- **Builkit** - Shared build configuration
+- **Utils** – Shared utility functions
+- **UI** – Shadcn UI components
+- **TS** – Shared TypeScript configuration
+
 > All services are managed in `compose.yml`.
 
 ---

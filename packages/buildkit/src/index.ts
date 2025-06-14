@@ -1,1 +1,1 @@
-export const hello = () => "Hello from Buildkit!";
+export { buildkitConfig } from "./config.js";
