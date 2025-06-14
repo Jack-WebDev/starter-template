@@ -1,15 +1,14 @@
 FROM node:20-slim
 
-WORKDIR /app
-
 RUN apt-get update && apt-get upgrade -y && apt-get install -y curl git && rm -rf /var/lib/apt/lists/*
-
 
 RUN corepack enable && corepack prepare pnpm@latest --activate
 
-COPY pnpm-lock.yaml package.json ./
-RUN pnpm install --frozen-lockfile
+ENV PNPM_HOME="/root/.local/share/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
 
-COPY . .
+WORKDIR /app
 
-CMD ["pnpm", "dev"]
+RUN pnpm add -g turbo biome
+
+CMD ["bash"]

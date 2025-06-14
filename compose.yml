@@ -40,7 +40,7 @@ services:
       - "8025:8025" 
 
   uptrace:
-    image: uptrace/uptrace:latest
+    image: uptrace/uptrace:1.7.5
     ports:
       - "14317:14317"  
       - "4317:4317"    

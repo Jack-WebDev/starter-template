@@ -4,6 +4,9 @@
 	"description": "",
 	"main": "index.js",
 	"private": true,
+	"exports": {
+		".": "./vitest.config.ts"
+	},
 	"scripts": {
 		"build": "tsup",
 		"lint": "biome check .",

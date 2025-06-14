@@ -52,6 +52,7 @@ Includes fast, modern local services for fullstack development:
 - **UI** – Shadcn UI components
 - **TS** – Shared TypeScript configuration
 - **Testkit** – Shared test configuration
+- **Emailkit** – Email sending library
 
 > All services are managed in `compose.yml`.
 
