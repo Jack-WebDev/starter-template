@@ -13,6 +13,22 @@
 		"check-types": {
 			"dependsOn": ["^check-types"]
 		},
+		"test": {
+			"dependsOn": ["^test"],
+			"inputs": ["src/**/*", "vitest.config.ts", "tsconfig.json"],
+			"outputs": []
+		},
+		"test:once": {
+			"dependsOn": ["^test:once"],
+			"inputs": ["src/**/*", "vitest.config.ts", "tsconfig.json"],
+			"outputs": []
+		},
+		"test:ci": {
+			"dependsOn": ["^test:ci"],
+			"inputs": ["src/**/*", "vitest.config.ts", "tsconfig.json"],
+			"outputs": []
+		},
+
 		"dev": {
 			"cache": false,
 			"persistent": true

@@ -6,7 +6,9 @@
 		"dev": "turbo run dev",
 		"lint": "turbo run lint",
 		"check-types": "turbo run check-types",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"test:once": "turbo run test:once",
+		"test:ci": "turbo run test:ci"
 	},
 	"lint-staged": {
 		"*": [
