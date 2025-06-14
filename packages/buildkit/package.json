@@ -1,0 +1,33 @@
+{
+	"name": "@repo/buildkit",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"private": true,
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		}
+	},
+	"scripts": {
+		"build": "tsup",
+		"clean": "rimraf dist",
+		"typecheck": "tsc -p tsconfig.build.json --noEmit",
+		"lint": "biome check ."
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"biome": "^0.3.3",
+		"husky": "^9.1.7",
+		"tsup": "^8.5.0",
+		"typescript": "5.8.2"
+	},
+	"devDependencies": {
+		"@repo/ts": "workspace:*"
+	}
+}

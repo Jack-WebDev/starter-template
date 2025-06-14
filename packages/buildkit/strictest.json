@@ -1,0 +1,12 @@
+{
+	"extends": "./tsconfig.node.json",
+	"compilerOptions": {
+		"exactOptionalPropertyTypes": true,
+		"noImplicitOverride": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"verbatimModuleSyntax": true,
+		"stripInternal": true
+	}
+}
