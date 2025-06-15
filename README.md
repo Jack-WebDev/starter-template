@@ -13,7 +13,6 @@ Ideal for building **scalable full-stack applications** with clean architecture,
 - **Turborepo** – Monorepo orchestration with smart caching
 - **pnpm** – Fast, disk-efficient package manager
 - **Docker Compose** – Consistent development environments
-- **Docker Compose** – Multi-service dev environments
 - **Dev Containers** – Reproducible coding environment via VS Code
 - **GitHub Actions** – Automated CI/CD pipelines
 - **Husky** – Git hooks for pre-commit checks
@@ -53,6 +52,7 @@ Includes fast, modern local services for fullstack development:
 - **TS** – Shared TypeScript configuration
 - **Testkit** – Shared test configuration
 - **Emailkit** – Email sending library
+- **E2E** – End-to-end testing
 
 > All services are managed in `compose.yml`.
 
