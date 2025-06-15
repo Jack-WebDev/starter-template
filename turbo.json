@@ -28,6 +28,11 @@
 			"inputs": ["src/**/*", "vitest.config.ts", "tsconfig.json"],
 			"outputs": []
 		},
+		"test:e2e": {
+			"dependsOn": ["^test:e2e"],
+			"inputs": ["tests/**/*", "playwright.config.ts"],
+			"outputs": []
+		},
 
 		"dev": {
 			"cache": false,
