@@ -1,5 +1,5 @@
 {
-	"extends": "@repo/ts/nextjs.json",
+	"extends": "@streamit/ts/nextjs.json",
 	"compilerOptions": {
 		"plugins": [
 			{

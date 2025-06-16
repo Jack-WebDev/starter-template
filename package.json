@@ -12,7 +12,9 @@
 		"test:e2e": "turbo run test:e2e"
 	},
 	"lint-staged": {
-		"*": ["biome check --no-errors-on-unmatched --files-ignore-unknown=true "]
+		"*": [
+			"biome check --no-errors-on-unmatched --files-ignore-unknown=true --apply"
+		]
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",

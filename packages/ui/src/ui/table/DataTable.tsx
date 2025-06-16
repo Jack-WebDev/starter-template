@@ -1,6 +1,6 @@
 "use client";
 
-import { startCase } from "@repo/utils";
+import { startCase } from "@streamit/utils";
 
 import {
 	type ColumnDef,

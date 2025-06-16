@@ -35,10 +35,10 @@
 		"zod": "^3.25.64"
 	},
 	"devDependencies": {
-		"@repo/buildkit": "workspace:*",
-		"@repo/emailkit": "workspace:*",
-		"@repo/testkit": "workspace:*",
-		"@repo/ts": "workspace:*",
+		"@streamit/buildkit": "workspace:*",
+		"@streamit/emailkit": "workspace:*",
+		"@streamit/testkit": "workspace:*",
+		"@streamit/ts": "workspace:*",
 		"@types/node": "^22.15.3",
 		"@types/pg": "^8.15.4",
 		"drizzle-kit": "^0.31.1",

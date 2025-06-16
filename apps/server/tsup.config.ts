@@ -1,7 +1,7 @@
-import { buildkitConfig } from "@repo/buildkit";
+import { buildkitConfig } from "@streamit/buildkit";
 
 export default buildkitConfig({
 	entry: ["src/index.ts", "db/**/*.ts"],
-	external: ["@repo/testkit"],
+	external: ["@streamit/testkit"],
 	dts: false,
 });

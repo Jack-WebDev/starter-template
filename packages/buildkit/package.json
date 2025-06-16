@@ -1,5 +1,5 @@
 {
-	"name": "@repo/buildkit",
+	"name": "@streamit/buildkit",
 	"version": "1.0.0",
 	"description": "",
 	"type": "module",
@@ -28,6 +28,6 @@
 		"typescript": "5.8.2"
 	},
 	"devDependencies": {
-		"@repo/ts": "workspace:*"
+		"@streamit/ts": "workspace:*"
 	}
 }

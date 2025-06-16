@@ -1,5 +1,5 @@
 {
-	"name": "@repo/utils",
+	"name": "@streamit/utils",
 	"version": "1.0.0",
 	"description": "",
 	"private": true,
@@ -36,8 +36,8 @@
 	},
 	"devDependencies": {
 		"@faker-js/faker": "^9.8.0",
-		"@repo/buildkit": "workspace:*",
-		"@repo/ts": "workspace:*",
+		"@streamit/buildkit": "workspace:*",
+		"@streamit/ts": "workspace:*",
 		"@types/lodash.groupby": "^4.6.9",
 		"@types/lodash.startcase": "^4.4.9",
 		"@types/node": "^22.15.3",

@@ -6,7 +6,7 @@ export default defineConfig({
 	test: {
 		globals: true,
 		environment: "jsdom",
-		// setupFiles: ["@repo/testkit/setup/setupTests.ts"],
+		// setupFiles: ["@streamit/testkit/setup/setupTests.ts"],
 		include: ["src/**/*.{spec,test,e2e}.{ts,tsx}"],
 		exclude: ["**/node_modules/**", "**/dist/**", "**/.next/**"],
 		poolOptions: {

@@ -1,5 +1,5 @@
 {
-	"extends": "@repo/ts/node.json",
+	"extends": "@streamit/ts/node.json",
 	"compilerOptions": {
 		"exactOptionalPropertyTypes": true,
 		"noImplicitOverride": true
