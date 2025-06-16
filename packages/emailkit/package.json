@@ -1,5 +1,5 @@
 {
-	"name": "@streamit/emailkit",
+	"name": "@repo/emailkit",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
@@ -23,9 +23,9 @@
 	},
 	"devDependencies": {
 		"@react-email/preview": "^0.0.13",
-		"@streamit/buildkit": "workspace:*",
-		"@streamit/ts": "workspace:*",
-		"@streamit/testkit": "workspace:*",
+		"@repo/buildkit": "workspace:*",
+		"@repo/ts": "workspace:*",
+		"@repo/testkit": "workspace:*",
 		"@types/nodemailer": "^6.4.17",
 		"@types/react": "19.1.0"
 	}

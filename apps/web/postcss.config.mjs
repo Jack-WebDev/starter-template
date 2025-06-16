@@ -1,4 +1,4 @@
-import baseConfig from "@streamit/ui/postcss.config.mjs";
+import baseConfig from "@repo/ui/postcss.config.mjs";
 
 export default {
 	...baseConfig,

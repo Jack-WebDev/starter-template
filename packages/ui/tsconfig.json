@@ -1,5 +1,5 @@
 {
-	"extends": "@streamit/ts/react-library.json",
+	"extends": "@repo/ts/react-library.json",
 	"compilerOptions": {
 		"outDir": "dist"
 	},

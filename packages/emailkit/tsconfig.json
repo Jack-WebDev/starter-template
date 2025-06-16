@@ -1,11 +1,11 @@
 {
-	"extends": "@streamit/ts/base.json",
+	"extends": "@repo/ts/base.json",
 	"compilerOptions": {
 		"baseUrl": ".",
 		"jsx": "react-jsx",
 		"paths": {
 			"~/*": ["src/*"],
-			"@streamit/testkit/*": ["../testkit/src/*"]
+			"@repo/testkit/*": ["../testkit/src/*"]
 		},
 		"noEmit": true
 	},

@@ -1,4 +1,4 @@
-import baseConfig from "@streamit/testkit";
+import baseConfig from "@repo/testkit";
 import { mergeConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 import { defineConfig } from "vitest/config";
